@@ -1,0 +1,9 @@
+def game369(x):
+  a = x.count('3') + x.count('6') + x.count('9')
+  return a
+
+x = input("삼육구삼육구삼육구삼육구: ")
+if (game369(str(x)) == 0):
+  print(x)
+else:
+  print(game369(str(x)) * "짝")
